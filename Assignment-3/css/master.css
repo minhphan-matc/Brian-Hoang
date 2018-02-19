@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+p.intro{
+  text-align: center;
+  font-size: 30px;
+  line-height: 80%
+}
+p.intro::first-letter{
+  font-size: 40px;
+}
+img{
+  width: 50%;
+  height: 80%;
+}
+p{
+  text-align: left;
+}
+h1{
+  color: #de3c3c;
+}
+img{
+  height: 200px;
+  text-align: center;
+}
+figcaption::after{
+  content: "<<";
+  color: blue;
+}
+a[target]{
+  background-color: #d6b0b0;
+}
+figcaption::before{
+  content: ">>";
+  color: blue;
+}
+figcaption{
+  font-size: 0.85em;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+div::before{
+  content: "😀";
+}
+div.review{
+  background-color: #ebb8b8
+}
+div.review1{
+  background-color: MediumAquamarine
+}
+div.review2{
+  background-color: rgb(245, 247, 172);
+}
+div.review3{
+  background-color: rgba(108, 170, 233, 0.74);
+}
+div.review4{
+  background-color: hsla(156, 78%, 57%, 0.78);
+}
+div.review5{
+  background-color: hsl(78, 78%, 57%);
+}
