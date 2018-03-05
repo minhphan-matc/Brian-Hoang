@@ -1,0 +1,27 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: auto 30px;
+}
+#header-img{
+  width: 100%;
+  vertical-align: middle;
+}
+h2{
+  margin-top: 1.875em;
+  margin-bottom: 0.9375em;
+  font-size: 1.77778em;
+  line-height: 1.2;
+  font-weight: 500;
+  clear: both;
+}
+main p{
+  font-size: 1em;
+}
+p{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+#author{
+  color: #5c6ac4
+}
