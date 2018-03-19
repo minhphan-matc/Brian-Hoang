@@ -10,7 +10,8 @@ function addMessage(event){
   var user, type, className;
   var messageInput = document.getElementById("message-input");
   var messagesContainerEl = document.getElementById("chatbox");
-  
+  var objDiv = document.getElementById("chatbox");
+  objDiv.scrollTop = objDiv.scrollHeight;
 
 
   switch (event.target.id) {
