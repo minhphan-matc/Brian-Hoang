@@ -1,6 +1,9 @@
 body {
 
 }
+h1{
+  text-align: center;
+}
 main.message-container{
   margin:0 auto;
   margin-bottom:25px;
@@ -30,6 +33,9 @@ span{
   background-color: grey;
   resize: both;
   overflow: auto;
+}
+footer{
+  text-align: center;
 }
 #chatbox {
     margin:0 auto;
