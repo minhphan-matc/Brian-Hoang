@@ -30,10 +30,24 @@ function addMessage(event){
   if(messageInput.value != ""){
     var message = new Message(type, user, messageInput.value);
     messages.push(message);
+    if(className === "out-message"){
+      var messageText = document.createTextNode("\u00A0"+message.text+"\u00A0");
+      var messageEl = document.createElement("div-out");
 
-    var messageText = document.createTextNode(message.text);
-    var messageEl = document.createElement("div");
+    }
+    else if(className === "in-message"){
+      var messageText = document.createTextNode("\u00A0"+message.text + "\u00A0");
+      var messageEl = document.createElement("div-in");
+    }
+    else{
+      var messageText = document.createTextNode(message.text);
+      var messageEl = document.createElement("div");
+    }
+
+
     messageEl.appendChild(messageText);
+    var br = document.createElement("br");
+    messageEl.appendChild(br);
     messageEl.className = className;
 
     messagesContainerEl.appendChild(messageEl);

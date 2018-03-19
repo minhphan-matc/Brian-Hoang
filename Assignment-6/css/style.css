@@ -1,3 +1,16 @@
 body {
-  
+
+}
+main.message-container{
+  width: 125px;
+}
+div-in{
+  border-radius: 15px;
+  background-color: #00ff00;
+  text-align: left;
+}
+div-out{
+  border-radius: 15px;
+  background-color: #80bfff;
+  text-align: right;
 }
