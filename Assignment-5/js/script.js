@@ -195,8 +195,7 @@
   //     document.getElementById(elementNames[j].stars).innerHTML = data[i].stars;
   //   }
   // }
-  // document.getElementById(elementNames[0].name).innerHTML = data[0].name;
-  //p1
+  // p1
 
   document.getElementById("p1-name").innerHTML = data[0].name;
   document.getElementById("p1-description").innerHTML = data[0].description;
