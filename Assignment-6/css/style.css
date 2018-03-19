@@ -43,7 +43,7 @@ footer{
     padding:10px;
     background:#fff;
     height:270px;
-    width:430px;
+    width:auto;
     border:1px solid #ACD8F0;
     overflow:auto;
   }
