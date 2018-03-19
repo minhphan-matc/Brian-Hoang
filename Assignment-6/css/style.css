@@ -5,26 +5,23 @@ h1{
   text-align: center;
 }
 main.message-container{
-  margin:0 auto;
-  margin-bottom:25px;
-  padding:10px;
-  background:#fff;
-  height:270px;
-  width:430px;
-  border:1px solid #ACD8F0;
-  overflow:auto;
+
 }
 div-in{
   border-radius: 15px;
   background-color: #00ff00;
   width: auto;
   float:left;
+  clear: both;
+  font-size: 20px;
 }
 div-out{
   border-radius: 15px;
   background-color: #80bfff;
   width: auto;
   float:right;
+  clear: both;
+  font-size: 20px;
 }
 span{
   border: 2px solid;

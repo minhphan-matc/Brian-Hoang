@@ -10,6 +10,7 @@ function addMessage(event){
   var user, type, className;
   var messageInput = document.getElementById("message-input");
   var messagesContainerEl = document.getElementById("chatbox");
+  
 
 
   switch (event.target.id) {
