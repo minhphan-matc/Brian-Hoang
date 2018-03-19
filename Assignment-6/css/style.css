@@ -2,15 +2,42 @@ body {
 
 }
 main.message-container{
-  width: 125px;
+  margin:0 auto;
+  margin-bottom:25px;
+  padding:10px;
+  background:#fff;
+  height:270px;
+  width:430px;
+  border:1px solid #ACD8F0;
+  overflow:auto;
 }
 div-in{
   border-radius: 15px;
   background-color: #00ff00;
-  text-align: left;
+  width: auto;
+  float:left;
 }
 div-out{
   border-radius: 15px;
   background-color: #80bfff;
-  text-align: right;
+  width: auto;
+  float:right;
 }
+span{
+  border: 2px solid;
+  width: 300px;
+  padding: 50px;
+  background-color: grey;
+  resize: both;
+  overflow: auto;
+}
+#chatbox {
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto;
+  }

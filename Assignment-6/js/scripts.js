@@ -9,7 +9,8 @@ function Message(type, user, text){
 function addMessage(event){
   var user, type, className;
   var messageInput = document.getElementById("message-input");
-  var messagesContainerEl = document.getElementById("message-container");
+  var messagesContainerEl = document.getElementById("chatbox");
+
 
   switch (event.target.id) {
     case "send-button":
@@ -38,20 +39,19 @@ function addMessage(event){
     else if(className === "in-message"){
       var messageText = document.createTextNode("\u00A0"+message.text + "\u00A0");
       var messageEl = document.createElement("div-in");
+
     }
     else{
       var messageText = document.createTextNode(message.text);
       var messageEl = document.createElement("div");
     }
-
-
     messageEl.appendChild(messageText);
     var br = document.createElement("br");
     messageEl.appendChild(br);
     messageEl.className = className;
 
     messagesContainerEl.appendChild(messageEl);
-
+    messagesContainerEl.appendChild(br);
     messageInput.value = "";
   }
   console.log(type);
