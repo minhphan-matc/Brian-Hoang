@@ -1,0 +1,28 @@
+#active-list{
+  background-color: #79f783;
+  border-top: 10px solid green;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#completed-list{
+  background-color: #80bfff;
+  border-top: 10px solid blue;
+  border-radius: 10px;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+}
+li{
+
+  font-size: 15px;
+}
+#input-wrapper{
+  text-align: center;
+}
+#input-task{
+  width: 60%;
+}
+#add-task{
+  width: 20%;
+}
