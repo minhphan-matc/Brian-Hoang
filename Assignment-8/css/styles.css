@@ -42,10 +42,13 @@ header h1{
   padding: 20px;
 }
 
+<<<<<<< HEAD
 #intro {
   display: none;
 }
 
+=======
+>>>>>>> master
 blockquote{
   font-style: italic;
   margin: 1em 1em 1em 0;

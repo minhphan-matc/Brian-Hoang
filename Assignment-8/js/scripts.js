@@ -31,21 +31,32 @@ var data = [
     }
   ];
 
+<<<<<<< HEAD
 var $nav = $('#nav-container');
 var $intro = $('#intro');
+=======
+var $nav = $('nav-container');
+var $intro = $('intro');
+>>>>>>> master
 var $posts = $('#post-container');
 
 function initPosts(){
   for(var i = 0; i < data.length; i++){
+<<<<<<< HEAD
 
     var postId = 'post-' + data[i].id,
     $post = $('<section class="post"></section>'),
+=======
+    var postId = 'post-' + data(i).id,
+    $post = $('<section></section>'),
+>>>>>>> master
     $title = $('<h2 class="title"></h2>'),
     $body = $('<blockquote></blockquote>'),
     $author = $('<span class="author"></span>'),
     $navItem = $('<li></li>');
 
     //add post data
+<<<<<<< HEAD
     $title.text(data[i].title);
     $body.text(data[i].body);
     $author.text(data[i].author);
@@ -78,3 +89,9 @@ function initPosts(){
 }
 
 initPosts();
+=======
+    
+
+  }
+}
+>>>>>>> master
