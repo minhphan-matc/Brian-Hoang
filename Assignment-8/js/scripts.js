@@ -80,6 +80,7 @@ function initPosts(){
 function addPost(event){
   var inputTitle = document.getElementById("title").value;
   var inputEl = document.getElementById("input-quote").value;
+  inputEl.scrollTop = inputEl.scrollHeight;
   var inputAuth = document.getElementById("author").value;
   if(inputEl.value !== ""){
     var postId = 'post-' + (data.length + 1),
@@ -106,6 +107,7 @@ function addPost(event){
     $posts.append($post);
     data.push($post);
     $nav.append($navItem);
+    console.log(data[data.length-1]);
 
     //wire up nav item click event
     $navItem.on('click', function(){
