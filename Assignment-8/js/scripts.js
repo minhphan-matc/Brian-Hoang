@@ -104,6 +104,7 @@ function addPost(event){
 
     //add post and nav elements to page
     $posts.append($post);
+    data.push($post);
     $nav.append($navItem);
 
     //wire up nav item click event
