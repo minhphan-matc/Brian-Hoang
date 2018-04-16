@@ -41,7 +41,22 @@ header h1{
   background-color: #eee;
   padding: 20px;
 }
-
+#input-wrapper{
+  flex: 0;
+  background-color: #eee;
+  padding: 20px;
+}
+#input-quote{
+  margin:0 auto;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding:10px;
+  background:#fff;
+  height:270px;
+  width:auto;
+  border:1px solid #ACD8F0;
+  overflow:auto;
+}
 #intro {
   display: none;
 }
